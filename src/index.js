@@ -1,6 +1,6 @@
 // npm init
 // npm install webpack express --save
-// npm install react react-dom react-router history@1.13.1 --save
+// npm install react react-dom react-router history@1.13.1 redux --save
 
 // npm install babel-core babel-loader babel-preset-es2015 babel-preset-react  --save
 // npm install babel-cli react-hot-loader webpack-dev-middleware webpack-hot-middleware --save-dev
@@ -27,10 +27,6 @@ const routes = (
     <Route      path='about' component={About}/>
   </Route>
 );
-
-// render(<Welcome />, document.getElementById('app'));
-// render(<Goodbye />, document.getElementById('app2'));
-
 
 render(
   <Router hisory={history}>{routes}</Router>,
